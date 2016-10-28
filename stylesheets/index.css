@@ -152,6 +152,7 @@ body {
 .work-item-front {
   transform: rotateX(0deg);
   z-index: 2;
+  overflow: hidden;
 }
 
 .work-item-back {
