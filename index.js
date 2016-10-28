@@ -12,10 +12,10 @@ $(document).ready(function() {
         $workItemFront = $(".work-item-front"), 
         $workItemBack = $(".work-item-back");
   
-  const displayedWork = [["<img src='/images/dungeoncrawler.gif' class='work-gif'>", "Information about this project here"], 
-  ["<img src='/images/simongame.gif' class='work-gif'>", "Information about this project here"], 
-  ["<img src='/images/conway.gif' class='work-gif'>", "Information about this project here"], 
-  ["<img src='/images/d3-graphs.gif' class='work-gif'>", "Information about this project here"]];
+  const displayedWork = [["<img src='/images/dungeon-crawler.png' class='work-pic'>", "Information about this project here"], 
+  ["<img src='/images/simon-game.png' class='work-pic'>", "Information about this project here"], 
+  ["<img src='/images/conway.png' class='work-pic'>", "Information about this project here"], 
+  ["<img src='/images/d3-graphs.png' class='work-pic'>", "Information about this project here"]];
   
   const canvas = document.getElementById("homecanvas"), 
         ctx = canvas.getContext("2d"), 
