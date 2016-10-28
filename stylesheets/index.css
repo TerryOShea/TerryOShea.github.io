@@ -186,7 +186,7 @@ body {
   z-index: 2;
   overflow: hidden;
   transform: rotateX(0deg);
-  background: #151515;
+  background: #e4e4e4;
 }
 
 .work-item-back {
