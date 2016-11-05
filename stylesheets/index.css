@@ -179,6 +179,7 @@ body {
   justify-content: center;
   width: 100%;
   height: 100%;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -191,6 +192,7 @@ body {
 
 .work-item-back {
   transform: rotateX(180deg);
+  padding: 2em;
   box-sizing: border-box;
   border: 4px solid #151515;
   background: #fafafa;
@@ -202,6 +204,14 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.work-pic, .work-info {
+  display: none;
+}
+
+.active {
+  display: block;
 }
 
 
